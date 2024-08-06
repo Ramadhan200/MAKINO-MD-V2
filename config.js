@@ -25,13 +25,13 @@ global.BotName = "🐦Makino-md-v2";
 global.packname = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";                             //Do not change.
 global.author = "🐦Makino md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
-global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm "; 
-global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm"; //Do not change!
+global.SupportGroupLink = "https://chat.whatsapp.com/IM57veJplECHwSiwI2iXaY"; 
+global.SupportGroupLink = "https://chat.whatsapp.com/IM57veJplECHwSiwI2iXaY"; //Do not change!
 //global.dbase = process.env.DBASE || "";//Mongodb here
-global.AuthorWhatsapp = "https://wa.me/2347080968564"; //Bot creator WhatsApp link,don't change or bot will not work.
+global.AuthorWhatsapp = "https://wa.me/256703025571"; //Bot creator WhatsApp link,don't change or bot will not work.
 
 global.sessID = process.env.sessID || ``
-global.prefa = ["/"]
+global.prefa = ["."]
 
 //
 global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
