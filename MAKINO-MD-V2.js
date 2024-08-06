@@ -255,7 +255,7 @@ m.message.InteractiveResponseMessage.NativeFlowResponseMessage ||               
     const groupName = m.isGroup ? groupMetadata.subject : ''
     const participants = m.isGroup ? await groupMetadata.participants : ''
     const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
-    const groupOwner = m.isGroup ? groupMetadata.owner : ''
+    const groupOwner = m.isGroup ? groupMetadata.owner : 'Ramadhan Yusuf'
     const isBotAdmins = m.isGroup ? groupAdmins.includes(botNumber) : false
     const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
     const isUser = pendaftar.includes(m.sender)
